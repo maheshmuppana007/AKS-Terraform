@@ -9,7 +9,6 @@ pool:
   vmImage: ubuntu-latest
 
 steps:
-- 
 - task: TerraformCLI@0
   displayName: Terraform Init
 - task: TerraformCLI@0
