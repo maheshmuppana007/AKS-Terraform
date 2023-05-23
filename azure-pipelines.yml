@@ -16,6 +16,4 @@ steps:
   inputs:
     command: 'plan'
     allowTelemetryCollection: true
-  inputs:
-    command: 'init'
-    allowTelemetryCollection: true
+  
