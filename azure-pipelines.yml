@@ -15,7 +15,7 @@ steps:
   displayName: Terraform Plan
   inputs:
     command: 'plan'
-    environmentServiceName: 'Free Trial(227b05ae-a33b-4d8b-a744-107732f1f1c4)'
-    providerAzureRmSubscriptionId: '227b05ae-a33b-4d8b-a744-107732f1f1c4'
-    allowTelemetryCollection: false
-  
+    allowTelemetryCollection: true
+  inputs:
+    command: 'init'
+    allowTelemetryCollection: true
